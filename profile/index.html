@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PWD</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+  <link rel="stylesheet" href="css/cjkc.css">
+</head>
+
+<body class="body">
+  <div class="wrap">
+    <header class="header">
+      <div class="inner">
+        <h1 class="logo">
+          <a href="#">
+            <span class="blind">
+              어윤규의 홈페이지입니다.
+            </span>
+          </a>
+        </h1>
+
+        <nav class="nav">
+          <ul class="nav_list">
+            <li class="nav_item on">
+              <a href="#spot">소개합니다</a>
+            </li>
+            <li class="nav_item">
+              <a href="#link">바로가기</a>
+            </li>
+            <li class="nav_item">
+              <a href="#notice">공지사항</a>
+            </li>
+            <li class="nav_item">
+              <a href="#faq">FAQ</a>
+            </li>
+          </ul>
+
+          <button type="button" class="btn_close_mo">
+            <span class="blind">메뉴바 닫기</span>
+          </button>
+        </nav>
+
+        <button type="button" class="btn_nav_mo">
+          <span class="blind">메뉴바 열기</span>
+        </button>
+      </div>
+    </header>
+
+    <div class="container">
+      <div id="spot" class="spot">
+        <div id="video-container" class="video_wrap">
+          <video id="scroll-video" muted autoplay>
+            <source src="video/spot_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <div class="inner">
+          <h2 class="spot_title">
+            서버구축 및 운영<br> 기말 프로젝트
+          </h2>
+          <p class="spot_text">
+            이 프로젝트는 LAP 서버와<br class="mo_show">
+            SMTP 서버를 통합하여<br>
+            실제 운영 가능한 웹 환경을 구축하는 것을<br class="mo_show">
+            목표로 하고 있습니다.<br>
+          </p>
+          <p class="spot_text">
+            Ubuntu를 기반으로 웹 서버에서의<br class="mo_show">
+            이메일 송수신 기능을 구현하며,<br>
+            웹 보안 기술을 테스트하는 환경을 조성했습니다.<br>
+          </p>
+          <p class="spot_text">
+            이 프로젝트는 단순한 서버 설치를 넘어,<br>
+            도메인 연동 및 실무에서 사용되는<br class="mo_show">
+            보안 관행을 학습하는 데 중점을 두고 있습니다.<br>
+          </p>
+        </div>
+      </div>
+
+      <div class="content">
+        <section id="link" class="section_link">
+          <div class="inner">
+            <h3 class="section_title">
+              바로가기
+            </h3>
+
+            <ul class="link_list">
+              <li class="link_item01 motion">
+                <a href="#" target="_blank" class="present">
+                  <span class="text">어윤규<br> 발표자료</span>
+                  <div class="btn_area">
+                    <span class="btn_txt">바로가기</span>
+                  </div>
+                </a>
+              </li>
+
+              <li class="link_item02 motion">
+                <a href="http://mail.pwd.kr/" target="_blank" class="home">
+                  <span class="text">어윤규<br> Mail</span>
+                  <div class="btn_area">
+                    <span class="btn_txt">바로가기</span>
+                  </div>
+                </a>
+              </li>
+
+              <li class="link_item03 motion">
+                <a href="https://my.pwd.kr/#/signin" target="_blank" class="nas">
+                  <span class="text">어윤규<br> NAS</span>
+                  <div class="btn_area">
+                    <span class="btn_txt">바로가기</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="notice" class="section_notice">
+          <div class="inner">
+            <h3 class="section_title">
+              공지사항
+            </h3>
+
+            <ul class="content_list">
+              <li class="content_item">
+                <button type="button" class="content_title">
+                  서버구축 및 운영 기말 프로젝트
+                </button>
+                <div class="content_detail">
+                  <div class="text_wrap">
+                    <ol class="num_list">
+                      <li>
+                        <span class="num">1.</span>
+                        <span class="orange">Ubuntu</span>를 기반으로 LAP 서버와 SMTP 서버를 구현했습니다.
+                      </li>
+                      <li>
+                        <span class="num">2.</span>
+                        발표자료는 상단의 <span class="blue">바로가기 -> 발표자료</span>를 통해 확인할 수 있습니다.
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </li>
+
+              <li class="content_item">
+                <button type="button" class="content_title">
+                  메일서버 접속 방법
+                </button>
+                <div class="content_detail">
+                  <div class="text_wrap">
+                    <ol class="num_list">
+                      <li>
+                        <span class="num">1.</span>
+                        상단의 <span class="blue">바로가기 -> 메일</span>을 통해 접속할 수 있습니다.
+                      </li>
+                      <li>
+                        <span class="num">2.</span>
+                        <b class="orange">사전에 승인된 사용자만 접속가능합니다.</b>
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="faq" class="section_faq">
+          <div class="inner">
+            <h3 class="section_title">
+              FAQ
+            </h3>
+
+            <ul class="content_list">
+              <li class="content_item">
+                <button type="button" class="content_title">
+                  LAP 서버란?
+                </button>
+                <div class="content_detail">
+                  <div class="text_wrap">
+                    <p>
+                      LAP 서버는 <b style="font-weight: 900;">Linux, Apache, PHP</b>로 구성된 서버를 뜻합니다.
+                    </p>
+                    <p>
+                      <b style="font-weight: 900;">Linux</b>는 운영 체제(OS)로, 서버가 작동하는 기반 환경을 제공합니다. 안정성, 보안성, 오픈소스 특성 덕분에 서버 환경에서 널리 사용됩니다.
+                    </p>
+                    <p>
+                      <b style="font-weight: 900;">Apache</b>는 웹 서버 소프트웨어로, 클라이언트(사용자)의 요청을 받아 웹 페이지(HTML, PHP 등)를 제공하는 역할을 합니다.
+                    </p>
+                    <p>
+                      <b style="font-weight: 900;">PHP</b>는 서버에서 실행되는 프로그래밍 언어입니다. 사용자 요청에 따라 동적인 데이터를 생성하거나, 데이터베이스와 상호작용하는 데 많이 쓰입니다.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="content_item">
+                <button type="button" class="content_title">
+                  SMTP 서버란?
+                </button>
+                <div class="content_detail">
+                  <div class="text_wrap">
+                    <p>
+                      SMTP 서버는 이메일을 전송하기 위해 사용되는 서버로, SMTP(Simple Mail Transfer Protocol) 프로토콜을 기반으로 동작한다. 이 서버는 이메일 발송의
+                      핵심 역할을 하며, 사용자가 작성한 이메일을 받아 수신자의 메일 서버로 전달하거나, 다른 SMTP 서버와 통신하여 메일을 중계한다.
+                    </p>
+                    <p>
+                      SMTP 서버는 발신자의 신원을 확인하고, 도메인을 검증하며, 이메일을 올바른 경로로 라우팅하여 최종 수신자에게 도달할 수 있도록 한다. 주로 이메일 클라이언트(예:
+                      Outlook, Gmail)와 통신하며, SMTP 서버의 주소와 인증 정보는 이메일 설정에서 필수적으로 입력되어야 한다.
+                    </p>
+                    <p>
+                      이 서버는 이메일 송신 과정에서 도메인 네임 시스템(DNS)을 활용해 수신자의 메일 서버를 찾아내고, 그 서버와 연결해 이메일을 전송한다. SMTP 서버는 종종 보안
+                      프로토콜(TLS 또는 SSL)과 결합되어 이메일 전송의 안전성을 보장하기도 한다.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="inner">
+      <div class="info_wrap">
+        <p>
+          Copyright © 2024 pwd All rights reserved
+        </p>
+        <p>
+          Made by 어윤규
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="popup_wrap">
+    <div class="dimmed"></div>
+    <div class="popup_box">
+      <strong class="popup_title">
+        긴급공지
+      </strong>
+      <p class="text_important">
+        서버구축 및 운영 기말 프로젝트
+      </p>
+      <p>
+        서버구축 및 운영 기말 프로젝트 중입니다.<br>
+        이로 인해 홈페이지 일부 서비스가<br>
+        일시적으로 중단될 수 있습니다.
+      </p>
+      <button type="button" class="btn_close">
+        <span class="blind">팝업 닫기</span>
+      </button>
+
+      <button type="button" class="cookie_today">
+        <span class="text">오늘 하루 보지 않기</span>
+      </button>
+    </div>
+  </div>
+</body>
+
+<script src="js/srcipt.js"></script>
+
+</html>
